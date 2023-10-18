@@ -1,0 +1,102 @@
+/*#008fff*/
+/*#001122*/
+/*#000727*/
+
+
+    h1 {
+        font-size: 4rem;
+      }
+      p {
+        font-size: 1.5rem;
+      }
+      body {
+        margin: 0;
+        font-family: 'Prompt', sans-serif;
+        color: white;
+        background: #202731;
+        overflow-x: hidden;
+      }
+
+      section {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 400px;
+        padding-top: 100px;
+      }
+
+      .blue {
+        background: #008fff;
+      }
+
+      .dark_blue {
+        background: #001122;
+      }
+
+      .darker {
+        background: #000727;
+        overflow: hidden;
+      }
+      
+      .waves {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+      }
+
+      .waves svg {
+        position: relative;
+        display: block;
+        width: calc(103% + 1.3px);
+        height: 262px;
+      }
+
+      .waves {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+      }
+
+      .waves svg {
+        position: relative;
+        display: block;
+        width: calc(103% + 1.3px);
+        height: 262px;
+      }
+
+      .waves .shape-fill {
+        fill: hsl(240, 3%, 6%);
+      }
+      .layer1 {
+        background-image: url('../IMG/curve.svg');
+      }
+
+      .layer2 {
+        background-image: url('../IMG/waves.svg');
+        transition: 50ms;
+      }
+      .layer3 {
+        background-image: url('../IMG/waves2.svg');
+        transition: 50ms;
+      }
+      .layer4 {
+        background-image: url('../IMG/waves3.svg');
+        transition: 50ms;
+      }
+
+      .spacer {
+        aspect-ratio: 960/300;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+
+
