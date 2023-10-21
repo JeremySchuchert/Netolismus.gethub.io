@@ -24,10 +24,10 @@
         align-items: center;
         min-height: 400px;
         padding-top: 100px;
-        flow: right;
+        float: right;
       }
     img{
-        flow: left;
+        float: left;
     }
       .blue {
         background: #008fff;
