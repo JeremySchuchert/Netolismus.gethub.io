@@ -8,6 +8,7 @@
       }
       p {
         font-size: 1.5rem;
+          float: right;
       }
       body {
         margin: 0;
@@ -24,7 +25,7 @@
         align-items: center;
         min-height: 400px;
         padding-top: 100px;
-        float: right;
+        
       }
     }
       .blue {
