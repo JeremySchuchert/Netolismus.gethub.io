@@ -60,7 +60,7 @@ color change of the buton
 }
 
 .change {
-  background-image: linear-gradient(to right, #2395fa, #1079d4, #04befe, #088cfc);
+  background-image: linear-gradient(to right, #088cfc, #1079d4, #04befe, #088cfc);
   box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
 }
 
