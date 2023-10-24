@@ -11,12 +11,12 @@ h1{
 
 p{
   font-size: 1.5rem;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 a{
   text-decoration: none;
-  font-size: 3rem;
-  color: #1a4f96;
 }
 
 /*
@@ -30,18 +30,14 @@ color change of the buton
 }
 
 .buttons {
-  margin: 10%;
   text-align: center;
 }
 
 .btn-hover {
-  width: 300px;
-  font-size: 3em;
+  font-size: 4em;
   font-weight: 600;
   color: #fff;
   cursor: pointer;
-  margin: 20px;
-  height: 55px;
   text-align:center;
   border: none;
   background-size: 300% 100%;
@@ -64,8 +60,34 @@ color change of the buton
 }
 
 .change {
-  background-image: linear-gradient(to right, #088cfc, #1079d4, #04befe, #088cfc);
+  background-image: linear-gradient(to right, #2395fa, #1079d4, #04befe, #088cfc);
   box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+/*
+responzivita
+*/
+
+@media (max-width: 600px) {
+
+  .blue,.dark_blue,.darker,.darkest {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.btn-hover{
+  font-size: 35px;
+}
+
+  h1 {
+    font-size: 50px;
+  }
+  
+  p {
+    font-size: 25px;
+    padding: 0;
+  }
 }
 
 /*kapky

@@ -2,7 +2,6 @@
 /*#001122*/
 /*#000727*/
 
-
 h1 {
     font-size: 4rem;
   }
@@ -103,10 +102,97 @@ section {
         background-size: cover;
       }
 
-      /* Responsive CSS */
+
+      /*right*/
+      .blue.R {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .dark_blue.R {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .darker.R {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      
+      .content {
+        display: flex;
+        align-items: center;
+      }
+      
+      .odst_2 {
+        flex: 1;
+        padding: 10px;
+      }
+      
+      .odst_2 img {
+        max-width: 400px;
+        border: 5px solid #018af3;
+        border-radius: 5%;
+      }
+      
+      .curve {
+        width: 100%;
+        height: 10px;
+      }
+
+      /*left*/
+
+      .blue.L {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .dark_blue.L {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .darkest.L {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      
+      .contentt {
+        display: flex;
+        align-items: center;
+      }
+      
+      .odst_22 {
+        flex: 1;
+        padding: 10px;
+      }
+      
+      .odst_22 img {
+        max-width: 400px;
+        border: 5px solid #2e363d;
+        border-radius: 5%;
+      }
+      
+      .curvee {
+        width: 100%;
+        height: 10px;
+      }
 
 
-/* Media Query for smaller screens */
+
+      
 @media (max-width: 600px) {
 
   .blue,
