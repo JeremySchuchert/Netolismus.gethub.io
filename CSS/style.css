@@ -116,6 +116,10 @@ section {
         flex-direction: column;
         align-items: center;
         text-align: center;
+
+        .odst_2 img{
+          border: 5px solid #082b4b;
+        }
       }
 
       .darker.R {
@@ -123,6 +127,10 @@ section {
         flex-direction: column;
         align-items: center;
         text-align: center;
+
+        .odst_2 img{
+          border: 5px solid #04203a;
+        }
       }
       
       .content {
@@ -153,6 +161,10 @@ section {
         flex-direction: column;
         align-items: center;
         text-align: center;
+
+        .odst_22 img{
+          border: 5px solid #018af3;
+        }
       }
 
       .dark_blue.L {
@@ -167,6 +179,10 @@ section {
         flex-direction: column;
         align-items: center;
         text-align: center;
+
+        .odst_22 img{
+          border: 5px solid #01182b;
+        }
       }
       
       .contentt {
@@ -181,7 +197,7 @@ section {
       
       .odst_22 img {
         max-width: 400px;
-        border: 5px solid #2e363d;
+        border: 5px solid #082b4b;
         border-radius: 5%;
       }
       
@@ -210,6 +226,15 @@ section {
   
   p {
     font-size: 14px;
+  }
+
+  
+}
+
+@media (max-width: 600px) {
+  .contentt,
+  .content {
+    flex-direction: column;
   }
 }
 
